@@ -11,7 +11,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   overflow-x: hidden;
-  color: #707172;
+  color: black;
   background-color: #666;
 }
 
@@ -33,7 +33,7 @@ a {
 }
 
 .tm-color-primary {
-  color: white;
+  color: Black;
 }
 
 .tm-color {
@@ -100,20 +100,44 @@ a {
   margin: 70px auto 90px;
 }
 
-.tm-double-border-1,
-.tm-double-border-2 {
-  border: 1px solid #fff;
+.tm-double-border-brand-1,
+.tm-double-border-brand-2 {
+  border: 3px solid #fff;
   position: relative;
 }
 
-.tm-double-border-2 {
+.tm-double-border-brand-2 {
   top: 10px;
   left: 10px;
 }
 
-.tm-border-gray {
-  border-color: #cdcecf;
+.tm-double-border-work-1,
+.tm-double-border-work-2 {
+  border-color: #52796f;
+  border: 3px solid #52796f;
+  position: relative;
 }
+
+.tm-double-border-work-2 {
+  top: 10px;
+  left: 10px;
+}
+
+.tm-double-border-contact-1,
+.tm-double-border-contact-2 {
+  border-color: #52796f;
+  border: 3px solid #52796f;
+  position: relative;
+}
+
+.tm-double-border-contact-2 {
+  top: 10px;
+  left: 10px;
+}
+
+/* .tm-border {
+  border-color: #cdcecf;
+} */
 
 .tm-box-pad {
   padding: 50px 55px;
